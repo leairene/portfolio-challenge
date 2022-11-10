@@ -5,6 +5,10 @@
     --branding-font: 'Playfair Display', serif;
 }
 
+body {
+    font-family: var(--default-font);
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--branding-font);
 }
@@ -26,9 +30,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 36px;;
 }
 
-.hero h3 {
+.hero p {
     font-size: 24px;
-    font-family: var(--default-font);
 }
 
 .contact-btn {
@@ -37,4 +40,45 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     padding: 18px 30px;
     border-radius: 4px;
+}
+
+.project-description {
+    padding: 100px 40px;
+}
+
+.project-description h2 {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.project-description p {
+    line-height: 30px;
+}
+
+.project-btn {
+    color: var(--primary-color);
+    padding: 18px 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .project-description h2 {
+        font-size: 38px;
+        padding-top: 30px;
+    }
+
+    .hero {
+        padding: 60px 10px;
+    }
+
+    .hero h1 {
+        font-size: 64px;;
+    }
+
 }
