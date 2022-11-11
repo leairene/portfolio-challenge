@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6C63FF;
-    --secondary-color: #F9F7FE;
+    --primary-color: #ded5c4;
+    --secondary-color: #f9f9f9;
     --default-font: 'Poppins', sans-serif;
     --branding-font: 'Playfair Display', serif;
 }
@@ -11,6 +11,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--branding-font);
+}
+
+footer {
+    margin: 60px;
 }
 
 .hero {
@@ -60,6 +64,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 18px 30px;
     border: 1px solid var(--primary-color);
     border-radius: 4px;
+}
+
+.some-icon {
+    color: black;
+    font-size: 50px;
+    margin: 0 40px;
+}
+
+.some-icon:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 @media (width <= 1400px) {
