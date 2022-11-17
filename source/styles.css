@@ -66,6 +66,10 @@ footer {
     border-radius: 4px;
 }
 
+.project-preview {
+    border-radius: 4px;
+}
+
 .some-icon {
     color: black;
     font-size: 50px;
