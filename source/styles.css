@@ -38,7 +38,33 @@ footer {
     font-size: 24px;
 }
 
-.contact-btn {
+.about-section {
+    padding: 160px 20px;
+}
+
+.about-section h1 {
+    font-size: 66px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font);
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--default-font);
+}
+
+.about-section-content {
+    margin: 30px;
+}
+
+.primary-btn {
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
@@ -59,7 +85,7 @@ footer {
     line-height: 30px;
 }
 
-.project-btn {
+.secondary-btn {
     color: var(--primary-color);
     padding: 18px 30px;
     border: 1px solid var(--primary-color);
@@ -94,6 +120,18 @@ footer {
     .row {
         margin: 20px 0;
     }
+
+    .about-section {
+        padding: 80px 20px;
+    }
+
+    .about-section-content {
+        margin-top: 0;
+    }
+
+    .dev-pic {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -114,6 +152,15 @@ footer {
 
     .hero h1 {
         font-size: 64px;;
+    }
+
+    .about-section {
+        padding: 0;
+        text-align: center;
+    }
+
+    .dev-pic {
+        margin-top: 50px;
     }
 
 }
