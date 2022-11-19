@@ -1,167 +1,172 @@
 :root {
-    --primary-color: #ded5c4;
-    --secondary-color: #f9f9f9;
-    --default-font: 'Poppins', sans-serif;
-    --branding-font: 'Playfair Display', serif;
+  --primary-color: #ded5c4;
+  --secondary-color: #f9f9f9;
+  --default-font: "Poppins", sans-serif;
+  --branding-font: "Playfair Display", serif;
 }
 
 body {
-    font-family: var(--default-font);
+  font-family: var(--default-font);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--branding-font);
+h1,
+h2 {
+  font-family: var(--branding-font);
 }
 
 footer {
-    margin: 60px;
+  margin: 60px;
 }
 
 .hero {
-    text-align: center;
-    background-color: var(--secondary-color);
-    padding: 150px ;
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 150px;
 }
 
 .hero h1 {
-    font-size: 96px;
-    font-weight: bold;
+  font-size: 96px;
+  font-weight: bold;
 }
 
 .hero h2 {
-    font-weight: bold;
-    font-family: var(--default-font);
-    font-size: 36px;;
+  font-weight: bold;
+  font-family: var(--default-font);
+  font-size: 36px;
 }
 
 .hero p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-.about-section {
-    padding: 160px 20px;
+.content-container {
+  padding: 160px 20px;
 }
 
-.about-section h1 {
-    font-size: 66px;
-    margin-top: 40px;
-    font-weight: bold;
+.content h1 {
+  font-size: 66px;
+  margin-top: 40px;
+  font-weight: bold;
 }
 
-.about-section h2 {
-    font-size: 18px;
-    font-family: var(--default-font);
-    font-weight: bold;
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  font-weight: bold;
 }
 
-.about-section p {
-    font-size: 16px;
-    line-height: 30px;
-    font-family: var(--default-font);
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font);
+  font-weight: bold;
 }
 
-.about-section-content {
-    margin: 30px;
+.content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--default-font);
+}
+
+.content {
+  margin: 30px;
 }
 
 .primary-btn {
-    background-color: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    padding: 18px 30px;
-    border-radius: 4px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 18px 30px;
+  border-radius: 4px;
 }
 
 .project-description {
-    padding: 100px 40px;
+  padding: 100px 40px;
 }
 
 .project-description h2 {
-    font-weight: bold;
-    font-size: 64px;
+  font-weight: bold;
+  font-size: 64px;
 }
 
 .project-description p {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 .secondary-btn {
-    color: var(--primary-color);
-    padding: 18px 30px;
-    border: 1px solid var(--primary-color);
-    border-radius: 4px;
+  color: var(--primary-color);
+  padding: 18px 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
 }
 
 .project-preview {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .some-icon {
-    color: black;
-    font-size: 50px;
-    margin: 0 40px;
+  color: black;
+  font-size: 50px;
+  margin: 0 40px;
 }
 
 .some-icon:hover {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media (width <= 1400px) {
-    .project-description {
+  .project-description {
     padding: 40px 20px;
-    }
+  }
 }
 
 @media (width <= 1200px) {
-    .project-description {
+  .project-description {
     padding: 0;
-    }
+  }
 
-    .row {
-        margin: 20px 0;
-    }
+  .row {
+    margin: 20px 0;
+  }
 
-    .about-section {
-        padding: 80px 20px;
-    }
+  .about-section {
+    padding: 80px 20px;
+  }
 
-    .about-section-content {
-        margin-top: 0;
-    }
+  .about-section-content {
+    margin-top: 0;
+  }
 
-    .dev-pic {
-        margin-top: 100px;
-    }
+  .dev-pic {
+    margin-top: 100px;
+  }
 }
 
 @media (max-width: 960px) {
-    .project-description {
-        padding: 0;
-        text-align: center;
-    }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 
-    .project-description h2 {
-        font-size: 38px;
-        padding-top: 30px;
-        margin-bottom: 25px !important;
-    }
+  .project-description h2 {
+    font-size: 38px;
+    padding-top: 30px;
+    margin-bottom: 25px !important;
+  }
 
-    .hero {
-        padding: 60px 10px;
-    }
+  .hero {
+    padding: 60px 10px;
+  }
 
-    .hero h1 {
-        font-size: 64px;;
-    }
+  .hero h1 {
+    font-size: 64px;
+  }
 
-    .about-section {
-        padding: 0;
-        text-align: center;
-    }
+  .about-section {
+    padding: 0;
+    text-align: center;
+  }
 
-    .dev-pic {
-        margin-top: 50px;
-    }
-
+  .dev-pic {
+    margin-top: 50px;
+  }
 }
-
