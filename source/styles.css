@@ -18,6 +18,39 @@ footer {
   margin: 60px;
 }
 
+nav {
+  margin: 20px 0;
+}
+
+nav img {
+  max-height: 40px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+nav a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--primary-color);
+}
+
+nav li.active a {
+  color: black;
+}
+
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
