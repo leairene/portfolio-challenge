@@ -110,7 +110,7 @@ footer h4 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 160px 20px 0;
 }
 
 .content h1 {
@@ -180,6 +180,11 @@ footer h4 {
   margin-top: 0px;
 }
 
+.dev-pic {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+
 @media (width <= 1400px) {
   .project-description {
     padding: 40px 20px;
@@ -238,6 +243,8 @@ footer h4 {
   }
 
   .dev-pic {
+    display: block;
+    margin: 0 auto;
     margin-top: 50px;
   }
 }

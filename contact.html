@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lea Irene Larssen is a frontend developer, based in Norway. She is learning how to code through SheCodes and Matt Delac. This website is her portfolio, collecting all the information about Lea and her projects.">
+    <title>About - Lea Irene Larssen</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,33 +28,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="source/styles.css" />
-    <title>About - Lea Irene Larssen</title>
   </head>
   <body>
-        <div class="container">
+    <div class="container">
       <nav class="nav-bar d-flex justify-content-between">
         <a href="/">
-          <img src="/media/logo.png" class="nav-logo d-none d-md-block" alt="">
-          <img src="/media/logo-mini.png" class="nav-logo d-block d-md-none" alt="">
+          <img src="/media/logo.png" class="nav-logo d-none d-md-block" alt="Lea Irene Larssen logo">
+          <img src="/media/logo-mini.png" class="nav-logo d-block d-md-none" alt="Lea Irene Larssen logo">
         </a>
         <ul>
           <li>
-            <a href="/">
+            <a href="/" title="Homepage">
             Home
             </a>
           </li>
           <li>
-            <a href="/about.html">
+            <a href="/about.html" title="About Lea">
               About
             </a>
           </li>
           <li>
-            <a href="/work.html">
+            <a href="/work.html" title="Work page">
               Work
             </a>
           </li>
           <li class="active">
-            <a href="/contact.html">
+            <a href="/contact.html" title="Contact Lea">
               Contact
             </a>
           </li>
@@ -76,27 +77,39 @@
           LinkedIn
         </h3>
         <p>
-          <a href="https://www.linkedin.com/in/lea-irene-larssen-b8461a257/" target="_blank">
+          <a href="https://www.linkedin.com/in/lea-irene-larssen-b8461a257/" title="LinkedIn page" target="_blank">
             Lea Irene Larssen
-          </a>
-        </p>
-        <h3 class="mt-5">
-          Instagram
-        </h3>
-        <p>
-          <a href="https://www.instagram.com/lea_irene" target="_blank">
-            @lea_irene
           </a>
         </p>
         <h3 class="mt-5">
           Twitter
         </h3>
         <p>
-          <a href="https://www.twitter.com/larssen_lea" target="_blank">
+          <a href="https://www.twitter.com/larssen_lea" title="Twitter page" target="_blank">
             @larssen_lea
           </a>
         </p>
       </div>
+      <footer class=" m-5">
+        <div class="d-flex justify-content-center some-links">
+          <a href="https://github.com/leairene" class="some-icon" title="GitHub page" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+            <a href="https://www.linkedin.com/in/lea-irene-larssen-b8461a257/" title="LinkedIn page" class="some-icon" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+            <a href="https://www.twitter.com/larssen_lea" class="some-icon" title="Twitter page" target="_blank">
+            <i class="fa-brands fa-twitter"> </i>
+          </a>
+        </div>
+        <p class="text-center mt-5 text-muted">
+          This project is coded by Lea Irene Larssen, and is
+          <a href="https://github.com/leairene/portfolio-challenge" title="GitHub project page">
+            Open sourced
+          </a>
+          ✨
+        </p>
+      </footer>
     </div>
   </body>
 </html>
