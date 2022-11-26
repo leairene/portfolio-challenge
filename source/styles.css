@@ -152,10 +152,11 @@ footer h4 {
 
 .primary-btn:hover {
   color: black;
+  background-color: var(--primary-color);
 }
 
 .project-description {
-  padding: 100px 40px;
+  padding: 60px 40px;
 }
 
 .project-description h2 {
@@ -188,6 +189,10 @@ footer h4 {
 @media (width <= 1200px) {
   .project-description {
     padding: 0;
+  }
+
+  .project-preview {
+    margin-top: 70px;
   }
 
   .row {
